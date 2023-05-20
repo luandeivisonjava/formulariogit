@@ -3,6 +3,7 @@ body{
 }
 form{
     max-width: 600px;
+    height: 100vh;
     margin: auto;
     margin-top: 60px;
     text-align: center;
@@ -61,4 +62,15 @@ span{
 a{
     color: azure;
     text-decoration: none;
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.form-area{
+    width: 50%;
+}
+.list{
+    width: 50%;
 }

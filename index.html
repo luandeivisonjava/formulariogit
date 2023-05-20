@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://luandeivisonjava.github.io/formulariogit/style.css">
+    <link rel="stylesheet" href="https://luandeivisonjava.github.io/formulariogit/style-lista.css">
     <title>Formulario</title>
 </head>
 <body>
@@ -29,5 +30,18 @@
         </div>
         <button type="submit">Enviar</button>
     </form> 
+    <h1>Lista de tarefas</h1>
+    <div class="container">
+        <div class="content-add-item">
+            <input id="input-add-item" type="text" placeholder="Digite sua Tarefa">
+            <button onclick="novaTarefa()" id="btn-add-item">+</button>
+        </div>
+        <div class="content-list-item">
+            <ul id="content-list">
+                
+            </ul>
+        </div>
+    </div>
 </body>
+<script src="script.js"></script>
 </html>
